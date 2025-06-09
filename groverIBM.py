@@ -71,7 +71,7 @@ grover_circuit.measure(range(n), range(n))
 # Autenticação e seleção de backend IBM
 service = QiskitRuntimeService(
     channel="ibm_quantum",
-    token="536fe13aec8692ee3524f775cf13ece4dd6c4f6410e2c17223c9d6a82b50d680ccf7f5e3544f35e9c1b494509d873fa9c040345610cab79d7a4eb84e05741b70"
+    token="TOKEN_AQUI"
 )
 backend = service.least_busy(operational=True, simulator=False)
 print("Backend selecionado:", backend)
