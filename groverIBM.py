@@ -91,4 +91,5 @@ transpiled_circuit.draw()
 
 # Gere a figura e deixe o Jupyter exibi-la automaticamente
 fig = plot_histogram(counts)
+fig
 
